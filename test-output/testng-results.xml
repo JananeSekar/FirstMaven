@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-21T20:56:25Z" name="Sanity" finished-at="2023-04-21T20:56:25Z" duration-ms="30">
+    <groups>
+      <group name="Regression">
+        <method signature="HomeLoanTest.test1()[pri:0, instance:testcases.HomeLoanTest@1fb19a0]" name="test1" class="testcases.HomeLoanTest"/>
+      </group> <!-- Regression -->
+      <group name="sanity">
+        <method signature="CreditCardTest.tes4()[pri:0, instance:testcases.CreditCardTest@6ee4d9ab]" name="tes4" class="testcases.CreditCardTest"/>
+        <method signature="HomeLoanTest.test1()[pri:0, instance:testcases.HomeLoanTest@1fb19a0]" name="test1" class="testcases.HomeLoanTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-04-21T20:56:25Z" name="Test" finished-at="2023-04-21T20:56:25Z" duration-ms="30">
+      <class name="testcases.CreditCardTest">
+        <test-method signature="tes4()[pri:0, instance:testcases.CreditCardTest@6ee4d9ab]" started-at="2023-04-21T20:56:25Z" name="tes4" finished-at="2023-04-21T20:56:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tes4 -->
+      </class> <!-- testcases.CreditCardTest -->
+      <class name="testcases.HomeLoanTest">
+        <test-method signature="test1()[pri:0, instance:testcases.HomeLoanTest@1fb19a0]" started-at="2023-04-21T20:56:25Z" name="test1" finished-at="2023-04-21T20:56:25Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- testcases.HomeLoanTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Sanity -->
+</testng-results>
